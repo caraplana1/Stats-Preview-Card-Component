@@ -20,3 +20,45 @@ b{
 .heading{
 	color: hsla(0, 0%, 100%, 0.6);
 }
+
+main{
+	background-color: hsl(244, 38%, 16%);
+}
+
+/*Mobile Size*/
+@media(max-width: 375px){
+	main{
+		border-radius: 1rem;
+	}
+	#img{
+		max-width: 654px;
+		min-width: 654px;
+		min-height: 480px;
+		background-image: url("./images/image-header-mobile.jpg");
+		
+	}
+}
+
+/*Desktop Size*/
+@media(min-width: 375px){
+	main{
+		border-radius: 1rem;
+		margin: 5rem 4rem 3rem 2rem;
+		min-height: 446px;
+		max-height: 446px;
+	}
+	#img{
+		max-width: 540px;
+		min-width: 540px;
+		min-height: 446px;
+		background-image: url("./images/image-header-desktop.jpg");
+		border-right: 2.5rem;
+		float: right;
+	}
+	article{
+		padding: 2rem;
+		padding-left: 2.5rem;
+		max-width: 500px;
+	}
+}
+
