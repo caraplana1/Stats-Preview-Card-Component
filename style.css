@@ -50,19 +50,18 @@ main{
 		border-bottom-right-radius: .5rem;
 		border-top-right-radius: .5rem;
 		width: 100%;
-		max-width: 540px;
-		min-width: 375px;
+		max-width: 500px;
 		max-height: 446px;
 		min-height: 375px;
+		/*TODO: Make the image scalable with the card size */
 	}
 	picture{
 		float: right;
 	}
 	article{
-		padding-top: 2rem;
-		padding-left: 2.5rem;
-		max-width: 400px;
-		max-height: 446px;
+		max-width: 500px;
+		min-width: 375px;
+		overflow: hidden;
 	}
 	#stats{
 		margin-top: 5rem;
