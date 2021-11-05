@@ -28,27 +28,27 @@ main{
 /*Mobile Size*/
 @media(max-width: 375px){
 	main{
-		border-radius: 1rem;
+		border-radius: .5rem;
 	}
 	picture img{
 		width: 100%;
 		max-width: 654px;
-		border-top-left-radius: 1rem;
-		border-top-right-radius: 1rem;
+		border-top-left-radius: .5rem;
+		border-top-right-radius: .5rem;
 	}
 }
 
 /*Desktop Size*/
 @media(min-width: 375px){
 	main{
-		border-radius: 1rem;
+		border-radius: .5rem;
 		min-height: 413px;
 		max-width: 1000px;
 		margin: auto;
 	}
 	picture img{
-		border-bottom-right-radius: 1rem;
-		border-top-right-radius: 1rem;
+		border-bottom-right-radius: .5rem;
+		border-top-right-radius: .5rem;
 		width: 100%;
 		max-width: 540px;
 		min-width: 375px;
