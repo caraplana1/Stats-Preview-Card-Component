@@ -23,7 +23,12 @@
 <body>
 
 	<main id="card">
-		<div id="img"></div>
+		<picture>
+			<source media="(min-width: 375px)" srcset="images/image-header-desktop.jpg">
+			<source media="(max-width: 375px)" srcset="images/image-header-mobile.jpg">
+			<source srcset="image-header.jpg">
+			<img src="image-header.jpg" alt="Header">
+		</picture>
 
 		<article>
 			<h1>Get <b>insights</b> that help your business grow.</h1>
