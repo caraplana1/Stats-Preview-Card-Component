@@ -5,6 +5,10 @@ body{
 	font-family: 'Lexend Deca', sans-serif;
 }
 
+.attribution{
+	color: white;
+}
+
 h1, h3{
 	color: white;
 }
@@ -23,6 +27,7 @@ b{
 
 main{
 	background-color: hsl(244, 38%, 16%);
+	border-radius: .5rem;
 }
 
 /*Mobile Size*/
