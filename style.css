@@ -57,17 +57,12 @@ main{
 		border-bottom-right-radius: .5rem;
 		border-top-right-radius: .5rem;
 		width: 100%;
-		max-width: 500px;
-		min-height: 446px;
-	}
-	picture{
-		max-height: 446px;
+		height: 100%;
 	}
 	article{
-		max-width: 500px;
-		max-height: 446px;
 		display: inline;
 		overflow: hidden;
+		max-width: 500px;
 	}
 	#stats{
 		margin-top: 5rem;
