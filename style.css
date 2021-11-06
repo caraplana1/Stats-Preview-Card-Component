@@ -33,7 +33,6 @@ main{
 /*Mobile Size*/
 @media(max-width: 375px){
 	main{
-		border-radius: .5rem;
 	}
 	picture img{
 		width: 100%;
@@ -46,26 +45,28 @@ main{
 /*Desktop Size*/
 @media(min-width: 375px){
 	main{
-		border-radius: .5rem;
-		min-height: 413px;
+		width: 100%;
 		max-width: 1000px;
 		margin: auto;
+		display: flex;
+		flex-direction: row-reverse;
+		/*flex-wrap: wrap;*/
+		justify-content: flex-end;
 	}
 	picture img{
 		border-bottom-right-radius: .5rem;
 		border-top-right-radius: .5rem;
 		width: 100%;
 		max-width: 500px;
-		max-height: 446px;
-		min-height: 375px;
-		/*TODO: Make the image scalable with the card size */
+		min-height: 446px;
 	}
 	picture{
-		float: right;
+		max-height: 446px;
 	}
 	article{
 		max-width: 500px;
-		min-width: 375px;
+		max-height: 446px;
+		display: inline;
 		overflow: hidden;
 	}
 	#stats{
