@@ -9,7 +9,7 @@ body{
 	color: white;
 }
 
-h1, h3{
+h1, h2{
 	color: white;
 }
 
@@ -47,10 +47,9 @@ main{
 	main{
 		width: 100%;
 		max-width: 1000px;
-		margin: auto;
+		margin: 9% auto 10% auto;
 		display: flex;
 		flex-direction: row-reverse;
-		/*flex-wrap: wrap;*/
 		justify-content: flex-end;
 	}
 	picture img{
@@ -60,15 +59,25 @@ main{
 		height: 100%;
 	}
 	article{
-		display: inline;
+		padding: 2rem 6rem 4rem 4rem;
+		max-width: 340px;
 		overflow: hidden;
-		max-width: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	h1{
+		font-size: 2rem;
 	}
 	#stats{
-		margin-top: 5rem;
+		margin-top: 2.5rem;
 	}
 }
 
+#stats{
+	display: flex;
+	justify-content: space-between;
+}
 .stat{
 	display: inline-block;
 }
