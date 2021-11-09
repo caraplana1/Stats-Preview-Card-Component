@@ -82,7 +82,8 @@ b{
 	main{
 		width: 100%;
 		max-width: 1000px;
-		margin: 9% auto 10% auto;
+		max-height: 446px;
+		margin: 10% auto;
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: flex-end;
@@ -96,8 +97,8 @@ b{
 	}
 
 	article{
-		padding: 2rem 6rem 4rem 4rem;
-		max-width: 340px;
+		padding: 5% 10% 5% 5%;
+		max-width: 350px;
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
@@ -106,7 +107,7 @@ b{
 	}
 
 	h1{
-		font-size: 2rem;
+		font-size: 200%;
 	}
 
 	#stats{
