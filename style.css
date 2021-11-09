@@ -35,7 +35,7 @@ b{
 }
 
 /*Mobile Size*/
-@media(max-width: 375px){
+@media(max-width: 600px){
 	main{
 		margin: 25% 5%;
 		min-width: 190px;
@@ -78,7 +78,7 @@ b{
 }
 
 /*Desktop Size*/
-@media(min-width: 375px){
+@media(min-width: 600px){
 	main{
 		width: 100%;
 		max-width: 1000px;
