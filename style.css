@@ -39,13 +39,23 @@ b{
 	main{
 		margin: 25% 5%;
 		min-width: 190px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	picture img{
 		width: 100%;
-		max-width: 654px;
+		height: 100%;
 		border-top-left-radius: .5rem;
 		border-top-right-radius: .5rem;
+		mix-blend-mode: multiply;
+	}
+
+	picture{
+		border-top-left-radius: .5rem;
+		border-top-right-radius: .5rem;
+		background-color: hsl(277, 64%, 61%);
+		display: flex;
 	}
 
 	article{
@@ -94,6 +104,14 @@ b{
 		border-top-right-radius: .5rem;
 		width: 100%;
 		height: 100%;
+		background-color: hsl(277, 64%, 61%);
+		mix-blend-mode: multiply;
+	}
+
+	picture{
+		border-bottom-right-radius: .5rem;
+		border-top-right-radius: .5rem;
+		background-color: hsl(277, 64%, 61%);
 	}
 
 	article{
