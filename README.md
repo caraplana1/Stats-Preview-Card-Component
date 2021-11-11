@@ -5,7 +5,7 @@
 ### Links
 
 * Solution URL: [https://github.com/caraplana1/Stats-Preview-Card-Component](https://github.com/caraplana1/Stats-Preview-Card-Component)
-* Live Site URL: [https://caraplana1.github.io/Stats-Preview-Card-Component](https://caraplana1.github.io/Stats-Preview-Card-Component/)
+* Live Site URL: [https://www.frontendmentor.io/solutions/responsive-landing-with-flexbox-_K5klxtF8](https://www.frontendmentor.io/solutions/responsive-landing-with-flexbox-_K5klxtF8)
 
 ## My process
 
